@@ -1,7 +1,8 @@
-package com.ort.tuservicio
+package com.ort.tuservicio.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ort.tuservicio.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66ACFF"
+    tools:context=".fragments.LoginFragment">
+
+    <Button
+        android:id="@+id/btnFragment9"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/iris"
+        android:text="@string/ingresar"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btnFragment8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tuservicio"
+        app:layout_constraintBottom_toTopOf="@+id/btnFragment9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/btnFragment8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/iris"
+        android:text="@string/registrarse"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFragment9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
