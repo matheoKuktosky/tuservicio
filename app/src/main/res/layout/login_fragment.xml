@@ -19,7 +19,7 @@
         android:backgroundTint="@color/iris"
         android:text="@string/ingresar"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/btnFragment8"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegistrarse"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -38,7 +38,7 @@
         tools:ignore="ImageContrastCheck" />
 
     <Button
-        android:id="@+id/btnFragment8"
+        android:id="@+id/btnRegistrarse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"

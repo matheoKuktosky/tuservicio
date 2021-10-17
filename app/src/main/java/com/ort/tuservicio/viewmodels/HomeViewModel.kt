@@ -1,4 +1,4 @@
-package com.ort.tuservicio
+package com.ort.tuservicio.viewmodels
 
 import androidx.lifecycle.ViewModel
 
