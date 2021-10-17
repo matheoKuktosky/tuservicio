@@ -27,7 +27,7 @@ class InitialFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         v = inflater.inflate(R.layout.initial_fragment , container, false)
-        btnFragment = v.findViewById(R.id.btnFragment)
+        btnFragment = v.findViewById(R.id.btnConfirmar)
         btnFragment2 = v.findViewById(R.id.btnFragment2)
 
         return v
