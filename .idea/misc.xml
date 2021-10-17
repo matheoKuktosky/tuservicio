@@ -14,10 +14,8 @@
         <entry key="..\:/Users/tomas/Desktop/tuservicio/app/src/main/res/layout/home_fragment.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/tomas/Desktop/tuservicio/app/src/main/res/layout/initial_fragment.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/tomas/Desktop/tuservicio/app/src/main/res/layout/login_fragment.xml" value="0.36666666666666664" />
-<<<<<<< Updated upstream
-        <entry key="..\:/Users/tomas/Desktop/tuservicio/app/src/main/res/layout/register_fragment.xml" value="0.36666666666666664" />
-=======
->>>>>>> Stashed changes
+        <entry key="..\:/Users/tomas/Desktop/tuservicio/app/src/main/res/layout/register_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/tomas/Desktop/tuservicio/app/src/main/res/layout/register_prestador_fragment.xml" value="0.33" />
         <entry key="..\:/Users/tomas/Desktop/tuservicio/app/src/main/res/layout/success_fragment.xml" value="0.36666666666666664" />
       </map>
     </option>
