@@ -3,4 +3,6 @@
     <string name="ingresar">Ingresar</string>
     <string name="registrarse">Registrarse</string>
     <string name="todo">TODO</string>
+    <string name="cliente">Cliente</string>
+    <string name="prestador">Prestador</string>
 </resources>

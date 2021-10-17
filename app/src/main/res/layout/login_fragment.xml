@@ -13,7 +13,7 @@
         android:layout_width="135dp"
         android:layout_height="51dp"
         android:layout_marginStart="143dp"
-        android:layout_marginTop="424dp"
+        android:layout_marginTop="380dp"
         android:layout_marginEnd="144dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/iris"
@@ -28,14 +28,14 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/todo"
         android:src="@drawable/tuservicio"
         app:layout_constraintBottom_toTopOf="@+id/btnFragment9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ImageContrastCheck"
-        android:contentDescription="@string/todo" />
+        tools:ignore="ImageContrastCheck" />
 
     <Button
         android:id="@+id/btnFragment8"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
         android:layout_marginEnd="144dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="150dp"
         android:backgroundTint="@color/iris"
         android:text="@string/registrarse"
         android:textColor="#000000"
