@@ -2,7 +2,6 @@
     <string name="app_name">TuServicio</string>
     <string name="ingresar">Ingresar</string>
     <string name="registrarse">Registrarse</string>
-    <string name="todo">TODO</string>
     <string name="cliente">Cliente</string>
     <string name="prestador">Prestador</string>
     <string name="nombre">NOMBRE</string>
@@ -13,4 +12,6 @@
     <string name="ubicacion">UBICACION</string>
     <string name="confirmar">confirmar</string>
     <string name="registrarseMayus">REGISTRARSE</string>
+    <string name="continuar">Continuar</string>
+    <string name="cuenta_creada_exitosamente">Cuenta creada exitosamente</string>
 </resources>
