@@ -35,12 +35,11 @@ class InitialFragment : Fragment() {
 
     override fun onStart(){
         super.onStart()
+        val action2 = InitialFragmentDirections.actionInitialFragmentToLoginFragment2()
         btnFragment.setOnClickListener{
-            val action2 = InitialFragmentDirections.actionInitialFragmentToLoginFragment2()
             v.findNavController().navigate(action2)
         }
         btnFragment2.setOnClickListener{
-            val action2 = InitialFragmentDirections.actionInitialFragmentToLoginFragment2()
             v.findNavController().navigate(action2)
         }
     }

@@ -26,8 +26,8 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        v = inflater.inflate(R.layout.initial_fragment , container, false)
-        btnFragment = v.findViewById(R.id.btnFragment)
+        v = inflater.inflate(R.layout.login_fragment , container, false)
+        btnFragment = v.findViewById(R.id.btnFragment9)
         btnRegister = v.findViewById(R.id.btnRegistrarse)
 
         return v
@@ -36,8 +36,8 @@ class LoginFragment : Fragment() {
     override fun onStart(){
         super.onStart()
         btnRegister.setOnClickListener{
-            val action2 = LoginFragmentDirections.actionLoginFragmentToRegisterFragment()
-            v.findNavController().navigate(action2)
+            val action3 = LoginFragmentDirections.actionLoginFragmentToRegisterFragment()
+            v.findNavController().navigate(action3)
         }
     }
 
